@@ -1,0 +1,13 @@
+{% load static %}
+ <div class="border-right border-dark h-100">
+            <div class="text-center">
+                <img src="{% static 'core/images/chetan.jpg' %}" alt="profilepic" class="img-fluid rounded-cricle mt-5" width="100px" height="100px">
+            </div>
+            <hr class="border-dark">
+
+            <nav class="nav flex-column text-center">
+                <a href="{% url 'home' %}" class="nav-link {{home}}">Home </a>
+                <a href="{% url 'skill' %}" class="nav-link {{skill}}">Skill</a>
+                <a href="{% url 'contact' %}" class="nav-link {{contact}}">Contact</a>
+            </nav>
+ </div>
