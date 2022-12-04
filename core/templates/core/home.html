@@ -1,23 +1,19 @@
 {% extends 'core/base.html' %}
 {% load static %}
+
 {% block content %}
     <div>
         <div class="text-center mt-5">
-                    <img src="{% static 'core/images/chetan.jpg' %}" alt="propic" class="img-thumbnail" width="150px" height="100px">
+                    <img src="{% static 'core/images/chetanpic.jpg' %}" alt="propic" class="img-thumbnail" width="200px" height="130px">
         </div>
         <div class="mt-5 text-white text-justify">
             <h1 class="font-weight-bold">Hello</h1>
         <div>
-            <p style="text-indent:100px;">There was nothing to indicate Nancy was going to change the world. She looked like an average girl going to an average high school. It was the fact that everything about her seemed average that would end up becoming her superpower.
-                The red glint of paint sparkled under the sun. He had dreamed of owning this car since he was ten, and that dream had become a reality less than a year ago. It was his baby and he spent hours caring for it, pampering it, and fondling over it. She knew this all too well, and that's exactly why she had taken a sludge hammer to it.
-                The red glint of paint sparkled under the sun. He had dreamed of owning this car since he was ten, and that dream had become a reality less than a year ago. It was his baby and he spent hours caring for it, pampering it, and fondling over it. She knew this all too well, and that's exactly why she had taken a sludge hammer to it.
-                The red glint of paint sparkled under the sun. He had dreamed of owning this car since he was ten, and that dream had become a reality less than a year ago. It was his baby and he spent hours caring for it, pampering it, and fondling over it. She knew this all too well, and that's exactly why she had taken a sludge hammer to it.
-                She considered the birds to be her friends. She'd put out food for them each morning and then she'd watch as they came to the feeders to gorge themselves for the day. She wondered what they would do if something ever happened to her. Would they miss the meals she provided if she failed to put out the food one morning?
-            </p>
+            <p style="text-indent:100px;">My name is Chetan sul, I’ve been studying computer science for two years. In order to kick-start my career before I graduate, I am looking for a interships of a web developer,backende developer or software development, since that’s what I’ve been doing already for two years in my free time. Designing websites for friends, developing simple e-shops with the help of some open source content-management systems, and so on. Besides that I am a normal guy who enjoys hiking and playing sports. If I should pick the best website I’ve designed up to this point, it will be this one: Job portal. I am ambitious and hard-working and believe you’ll give me a chance to prove my words.</p>
         </div>
         </div>
         <div class="text-center">
-            <a href="" class="btn btn-outline-warning my-3 mr-5">Hire me</a>
+            <a href="{% url 'skill' %}" class="btn btn-outline-warning my-3 mr-5">Skills</a>
             <a href="{% url 'contact' %}" class="btn btn-outline-dark my-3 ">contact</a>
         </div>
 
